@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+        "node_modules"
+    ]
+},
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"],
+    "ordered-imports": [false],
+    "no-console": [false],
+    "object-literal-sort-keys": [false],
+    "member-ordering": [false],
+    "max-line-length": [false],
+    "no-empty-interface": [false]
+  },
+  "rulesDirectory": []
+}
